@@ -1,11 +1,8 @@
 $fn=360;
 
-
-diameter = 20;
-for(location=[0: 1.5: 10]){
+for(location=[0: 1: 10]){
         translate([0,0,location])
-        circle(d=diameter);
-        diameter = diameter-2;
+        circle(d=location * 2);
 };
 
 
