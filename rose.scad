@@ -11,7 +11,7 @@ $fn=360;
 //};
 
 
-for(location=[2: .25: 4]){
+for(location=[1.5: .2: 3]){
     translate([0,0,-(location -.25)]){
         difference(){
             circle(d=location);
